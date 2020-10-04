@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Moodle</title>
+   <!--  <link rel="stylesheet" href="style.css"> -->
+    <style>
+        body {
+            background-image: url("https://www.setaswall.com/wp-content/uploads/2017/06/Blur-Wallpapers-05-2560-x-1600.jpg");
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        p.head {
+            font-family: 'Segoe UI';
+            text-align: center;
+            padding: 15px;
+            color:white;
+            font-size:30px;
+            background-color:rgba(0,0,0,0.4);
+        }
+
+        p.title {
+            font-family: 'Segoe UI';
+            text-align:center;
+            color:white;
+            font-size:24px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap: 10px;
+            background-color:rgba(15, 15, 15, 0.123);
+            padding: 10px;
+        }
+        
+        .grid-container > div {
+            background-color: rgba(15, 15, 15, 0.123);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+
+        .button {
+            background-color:rgba(0,0,0,0.123); /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            display: block;
+            width:99%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p class="head">Расписание:</p>
+
+    <div class="grid-container">
+
+        <div>
+            <p class="title">Понедельник</p>
+            <button class="button" onclick="window.location.href='http://moodle.kvptk.kz/course/view.php?id=2376';">Физика</button>
+            <button class="button" onclick="window.location.href='http://moodle.kvptk.kz/course/view.php?id=362';">Основы экономики</button>
+            <button class="button" onclick="window.location.href='http://moodle.kvptk.kz/course/view.php?id=3463';">Математика</button>
+            <button class="button" onclick="window.location.href='http://moodle.kvptk.kz/course/view.php?id=2257';">Архитектура и организация компьютерных систем</button>
+        </div>
+        
+        <div>
+            <p class="title">Вторник</p>
+            <button class="button" onclick="window.location.href='http://moodle.kvptk.kz/course/view.php?id=2521';">Современная история Казахстана</button>
+            <button class="button" onclick="window.location.href='http://moodle.kvptk.kz/course/view.php?id=2419';">Основы политологии и социологии</button>
+            <button class="button" onclick="window.location.href='http://moodle.kvptk.kz/course/view.php?id=3463';">Математика</button>
+        </div>
+        
+        <div>
+            <p class="title">Среда</p>
+            <button class="button" onclick="window.location.href='http://moodle.kvptk.kz/course/view.php?id=2761';">Физра</button>
+            <button class="button" onclick="window.location.href='http://moodle.kvptk.kz/course/view.php?id=2676';">Электроника</button>
+            <button class="button" onclick="window.location.href='http://moodle.kvptk.kz/course/view.php?id=2521';">Современная история Казахстана</button>
+        </div>
+        
+        <div>
+            <p class="title">Четверг</p>
+            <button class="button" onclick="window.location.href='http://moodle.kvptk.kz/course/view.php?id=2376';">Физика</button>
+            <button class="button" onclick="window.location.href='http://moodle.kvptk.kz/course/view.php?id=3463';">Математика</button>
+            <button class="button" onclick="window.location.href='http://moodle.kvptk.kz/course/view.php?id=1659';">Теория электрических цепей</button>
+        </div>
+        
+        <div>
+            <p class="title">Пятница</p>
+            <button class="button" onclick="window.location.href='http://moodle.kvptk.kz/course/view.php?id=2418';">Философия</button>
+            <button class="button" onclick="window.location.href='http://moodle.kvptk.kz/course/view.php?id=2376';">Физика</button>
+            <button class="button" onclick="window.location.href='http://moodle.kvptk.kz/course/view.php?id=3463';">Математика</button>
+        </div>
+        
+        <div>
+            <p class="title">Суббота</p>
+            <button class="button" onclick="window.location.href='http://moodle.kvptk.kz/course/view.php?id=2257';">Архитектура и организация компьютерных систем</button>
+            <button class="button" onclick="window.location.href='http://moodle.kvptk.kz/course/view.php?id=2257';">Архитектура и организация компьютерных систем</button>
+            <button class="button" onclick="window.location.href='http://moodle.kvptk.kz/course/view.php?id=1686';">Объектно ориентированное программирование</button>
+        </div>
+        
+      </div>
+
+</body>
+
+</html>
